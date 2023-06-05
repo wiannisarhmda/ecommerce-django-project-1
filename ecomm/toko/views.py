@@ -16,6 +16,8 @@ class HomeListView(generic.ListView):
     queryset = ProdukItem.objects.all()
     paginate_by = 4
 
+#class KontakDetailView()
+
 class ProductDetailView(generic.DetailView):
     template_name = 'product_detail.html'
     queryset = ProdukItem.objects.all()
